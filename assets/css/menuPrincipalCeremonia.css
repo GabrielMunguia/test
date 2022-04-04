@@ -1,0 +1,110 @@
+/* @font-face {
+    font-family: 'carta';
+    src: url('./Smiling\ Quotes.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ } */
+
+ .ceremonia{
+    background-color: #96e7da !important;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.ceremonia_titulo{
+font-family: carta;
+font-size: 3.4rem;
+}
+.ceremonia_imagen{
+  width: 14em;
+  height: 20em;
+}
+.ceremonia_fondo{
+ 
+  width: 43em;
+  height: 20em;
+}
+
+@font-face {
+    font-family: 'carta';
+    src: url('.././fonts/Cream.otf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
+
+
+.ceremonia {
+  background-color: #ebcdbc;
+min-height: 100vh;
+  
+}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+ 
+    max-width: 30em;
+  
+  }
+  
+  /* Slides */
+  .mySlides {
+      font-family: carta;
+    display: none;
+    padding-left: 10px;
+    font-size: 1.7em;
+    font-weight:400;
+    text-align: start;
+  }
+  
+  .boton_menu{
+      border:0;
+      outline: none;
+      background-color: #FDFBF9;
+      border-left: 12px solid #002396 ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+  .boton_menu_contenedor_imagen{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #002396 ;
+  }
+  .boton_menu_contenedor_imagen::before{
+    content: "";
+    border: 4px solid#002396;
+    transform: rotate(40deg);
+    position: relative;
+    left: -2px;
+  }
+  .boton_menu_imagen{
+      width: 2.6em;
+      height: 2.6em;
+      position: relative;
+      right: 0;
+    
+      
+      
+  }
+  
+  
+  
+  .boton_menu_texto{
+      font-family: carta;
+      font-size: 2.1em;
+  }
+  
+  
+  
+  

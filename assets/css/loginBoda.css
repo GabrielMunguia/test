@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'carta';
+    src: url('/assets/fonts/Smiling\ Quotes.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.boda {
+  background-color: #E1CCB9;
+min-height: 100vh;
+  
+}
+.boda_imagen{
+  width: 14em;
+  top:3.4em;
+  height: 10em;
+}
+
+.boda_fondo{
+ 
+  width: 43em;
+  height: 20em;
+}
+
+.boda_checkbox {
+  height: 1.8em;
+  top:-0.4rem;
+  position: relative;
+  width: 2rem;
+}
+.login_btn_enviar {
+  background-color: #5b101f;
+  border-radius: 10px;
+  color: white;
+
+  width: 6em;
+  display: flex;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 3px solid white;
+}
+
+.ribbon {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 32px;
+    height: 60px;
+    color: #FFF;
+    font-weight:lighter;
+    font-size: 1.71rem;
+    z-index: 222;
+    top:2em;
+    font-family: 'carta';
+  }
+  
+  .ribbon:before,
+  .ribbon:after,
+  .ribbon-text:before,
+  .ribbon-text:after {
+    content: '';
+    position: absolute;
+    display: block;
+  }
+  
+  .ribbon:before,
+  .ribbon:after {
+    top: 0;
+    border: 26px solid #510e1a;
+    z-index: -1;
+  }
+  .ribbon:before {
+    left: 0;
+    border-right-width: 22px;
+    border-left-width: 10px;
+    border-left-color: transparent;
+  }
+  .ribbon:after {
+    right: 0;
+    border-left-width: 22px;
+    border-right-width: 10px;
+    border-right-color: transparent;
+  }
+  
+  .ribbon-text {
+    display: flex;
+    position: relative;
+    margin-top: 8px;
+    box-sizing: border-box;
+    padding: 0 50px;
+    height: 52px;
+    background-color: #510e1a;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  .ribbon-text:before,
+  .ribbon-text:after {
+    top: -8px;
+    width: 30px;
+    height: 8px;
+    z-index: 222;
+  }
+  
+  .ribbon-text:before {
+    left: 0;
+    background: linear-gradient(to right bottom, #28060b 50%, #222222 50%);
+  }
+  .ribbon-text:after {
+    right: 0;
+    background: linear-gradient(to left bottom, #28060b 50%, #222222 50%);
+  }
+

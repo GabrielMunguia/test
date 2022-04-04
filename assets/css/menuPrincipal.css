@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'carta';
+    src: url('.././fonts/Cream.otf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.boda {
+  background-color: #E1CCB9;
+min-height: 100vh;
+  
+}
+.boda_imagen{
+  width: 14em;
+  top:3.4em;
+  height: 10em;
+}
+
+.boda_fondo{
+ 
+  width: 43em;
+  height: 20em;
+}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  max-width: 30em;
+}
+
+/* Slides */
+.mySlides {
+    font-family: carta;
+  display: none;
+  padding-left: 10px;
+  font-size: 1.7em;
+  font-weight:400;
+  text-align: start;
+}
+
+.boton_menu{
+    border:0;
+    outline: none;
+    background-color: #FDFBF9;
+    border-left: 12px solid #5b101f ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.boton_menu_contenedor_imagen{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #5b101f ;
+}
+.boton_menu_contenedor_imagen::before{
+  content: "";
+  border: 4px solid#5b101f;
+  transform: rotate(40deg);
+  position: relative;
+  left: -2px;
+}
+.boton_menu_imagen{
+    width: 2.6em;
+    height: 2.6em;
+    position: relative;
+    right: 0;
+  
+    
+    
+}
+
+
+
+.boton_menu_texto{
+    font-family: carta;
+    font-size: 2.1em;
+}
+
+
+
