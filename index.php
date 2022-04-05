@@ -1,7 +1,11 @@
 <?php
-define('DOCROOT', realpath(dirname(__FILE__)).'/');
+try {
+    define('DOCROOT', realpath(dirname(__FILE__)).'/');
 
-require_once(DOCROOT . '/controller\principal.php');
+    require_once(DOCROOT . '/controller\principal.php');
+} catch (\Throwable $th) {
+    echo $th->getMessage();
+}
 
 
 ?>
