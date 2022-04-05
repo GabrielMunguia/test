@@ -2,7 +2,7 @@
 try {
     define('DOCROOT', realpath(dirname(__FILE__)).'/');
 
-    require __DIR__.'/controller\principal.php';
+    require_once('controller\principal.php');
 } catch (\Throwable $th) {
     echo $th->getMessage();
 }
