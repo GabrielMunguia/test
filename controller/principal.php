@@ -1,7 +1,7 @@
-<?php 
+<?php
+define('DOCROOT', realpath(dirname(__FILE__)).'/');
 
-
-  include(__DIR__.'./views/principalView.php');
+require_once(DOCROOT . '/controller\principal.php');
 
 
 ?>
