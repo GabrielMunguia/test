@@ -1,4 +1,3 @@
 <?php
-echo "123123";
-
+ require_once("./controller\principal.php");
 ?>
