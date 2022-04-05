@@ -1,4 +1,5 @@
 <?php 
+define('DOCROOT', realpath(dirname(__FILE__)).'/');
 include_once('../model/Router.php');
   
   $ruta = "";
@@ -12,17 +13,18 @@ if(isset($_GET["param"])){
 
 switch ($ruta) {
   case 'boda':
-    include('../views/loginBodaView.php');
+    include(__DIR__.'../views/loginBodaView.php');
 
     break;
 
     case 'ceremonia':
-      include('../views/loginCeremoniaView.php');
+      include(__DIR__.'../views/loginCeremoniaView.php');
 
       break;
   
   default:
-  include('../views/loginBodaView.php');
+
+  require_once(DOCROOT .'../views/loginBodaView.php');
     break;
 }
 
