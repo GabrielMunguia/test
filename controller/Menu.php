@@ -15,17 +15,17 @@ include_once('../model/Router.php');
 
 switch ($ruta) {
   case 'boda':
-    include('../views/menuPrincipalBodaView.php');
+    include(__DIR__.'../views/menuPrincipalBodaView.php');
 
     break;
 
     case 'ceremonia':
-      include('../views/menuPrincipalCeremoniaView.php');
+      include(__DIR__.'../views/menuPrincipalCeremoniaView.php');
 
       break;
   
   default:
-  include('../views/menuPrincipalBodaView.php');
+  include(__DIR__.'../views/menuPrincipalBodaView.php');
     break;
 }
 

@@ -1,5 +1,5 @@
 <?php 
 
-  include('./views/principalView.php');
+  include_once('./views/principalView.php');
 
 ?>
